@@ -8,7 +8,7 @@ pipeline {
                           }
                     stage('print satatement2'){
                         agent {label "slave1"}
-                        steps { sh "echo "Welcome to devops class" }
+                        steps { sh "echo "Welcome to devops class" " }
                             }
                     }
                 }
